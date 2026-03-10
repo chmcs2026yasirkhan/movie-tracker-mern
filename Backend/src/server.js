@@ -7,7 +7,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./config/db.js";
-import movieRoutes from "./routes/movieRoutes.js";
+import movieRoutes from "./Routes/movieRoutes.js";
 
 // Fix __dirname for ES Modules
 const __filename = fileURLToPath(import.meta.url);
