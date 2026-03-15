@@ -8,11 +8,9 @@ A full-stack Movie Tracker web application built using **MongoDB, Express.js, Re
 
 | Service | URL |
 |---|---|
-| 🖥️ Frontend | `https://jolly-meringue-5f33a3.netlify.app` |
-| ⚙️ Backend API | `https://movie-tracker-mern.onrender.com` |
-| 📁 GitHub Repo | `https://github.com/chmcs2026yasirkhan/movie-tracker-mern` |
-
-> ⚠️ Replace the above URLs with your actual deployed URLs before evaluation.
+| 🖥️ Frontend | https://movie-tracker-mern-tqen.onrender.com |
+| ⚙️ Backend API | https://movie-tracker-mern.onrender.com |
+| 📁 GitHub Repo | https://github.com/chmcs2026yasirkhan/movie-tracker-mern |
 
 ---
 
@@ -34,9 +32,9 @@ The Movie Tracker Application is a MERN stack project that enables users to:
 - ✅ **View All Movies** — Display all movies in a responsive card grid layout
 - ✅ **Edit Movie** — Update any movie details with a pre-filled form
 - ✅ **Delete Movie** — Remove movies with confirmation prompt
-- ✅ **Search by Title** — Real-time search filtering by movie title
 
-### Additional Features
+### Special Features
+- ✅ **Search by Title** — Real-time search filtering by movie title
 - ✅ **Filter by Genre** — Filter movies by genre (Action, Drama, Sci-Fi, etc.)
 - ✅ **Filter by Watch Status** — Filter by Watched / Watching / Plan to Watch
 - ✅ **Star Rating Display** — Visual star rating on each movie card
@@ -58,15 +56,14 @@ The Movie Tracker Application is a MERN stack project that enables users to:
 | Notifications | react-hot-toast |
 | Backend | Node.js, Express.js |
 | Database | MongoDB Atlas + Mongoose |
-| Deployment (Frontend) | Netlify |
-| Deployment (Backend) | Render.com |
+| Deployment | Render.com |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-movie-tracker/
+movie-tracker-mern/
 ├── backend/
 │   ├── src/
 │   │   ├── config/
@@ -155,7 +152,7 @@ Mongoose → Express → React UI Updates
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOURUSERNAME/movie-tracker-mern.git
+git clone https://github.com/chmcs2026yasirkhan/movie-tracker-mern.git
 cd movie-tracker-mern
 ```
 
@@ -168,14 +165,14 @@ npm install
 Create a `.env` file in the `backend/` folder:
 ```env
 MONGO_URI=mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/movietracker?retryWrites=true&w=majority
-PORT=3000
+PORT=5000
 ```
 
 Start the backend:
 ```bash
 npm run dev
 ```
-✅ Backend runs at: `http://localhost:3000`
+✅ Backend runs at: `http://localhost:5000`
 
 ### 3. Frontend Setup
 ```bash
@@ -196,16 +193,18 @@ npm run dev
 - Start Command: `node src/server.js`
 - Add `MONGO_URI` and `PORT` as environment variables
 
-### Frontend — Netlify
-- Connect GitHub repo to Netlify
-- Base Directory: `frontend`
+### Frontend — Render.com
+- Connect GitHub repo to Render
+- Root Directory: `frontend`
 - Build Command: `npm run build`
-- Publish Directory: `frontend/dist`
+- Publish Directory: `dist`
 
 ---
 
 ## 👨‍💻 Developer
 
+- **Name:** Yasir Khan
 - **Project:** Movie Tracker Application
 - **Stack:** MERN (MongoDB, Express, React, Node.js)
+- **GitHub:** https://github.com/chmcs2026yasirkhan
 - **Course:** Full Stack Development Lab
